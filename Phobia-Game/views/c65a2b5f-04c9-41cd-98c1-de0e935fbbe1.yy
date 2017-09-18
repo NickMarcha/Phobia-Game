@@ -7,7 +7,7 @@
         
     ],
     "filterType": "GMObject",
-    "folderName": "Parrents",
+    "folderName": "Parents",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
