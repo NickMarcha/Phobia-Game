@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "126766a4-b07f-48b7-a05c-b9c0234858e6",
-            "Value": {
-                "id": "b007a2ed-707d-41db-aeb4-7ba6ef713fc4",
-                "resourcePath": "sprites\\sprite_playerWalking\\sprite_playerWalking.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "126c4c7e-b48f-42cd-a21d-d25e4fb737df",
             "Value": {
                 "id": "a6781dbe-bf7c-4dab-b780-dba4e458454d",
@@ -171,6 +163,14 @@
             "Value": {
                 "id": "dc66126b-1714-4b99-97b1-bbc2c35dff0e",
                 "resourcePath": "sprites\\sprite_playerRunning\\sprite_playerRunning.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c97f905-d83c-47bf-9722-86320feebd78",
+            "Value": {
+                "id": "9dd4ed71-5397-47e7-992b-1e62bbf601c9",
+                "resourcePath": "sprites\\sprite_playerWalkingWMelee\\sprite_playerWalkingWMelee.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "b19754a3-b826-4b8b-8c29-70f3a316c721",
+            "Value": {
+                "id": "01ce3af2-f8b5-4045-9cb4-c63034f73f50",
+                "resourcePath": "sprites\\sprite_playerWalking\\sprite_playerWalking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b256ccef-46a0-42a7-985f-e24bcb6c4399",
             "Value": {
                 "id": "8dbd1d02-dd54-49b0-9ba6-657b9d4ff13a",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "cd67d6c4-17b0-43c5-9a44-dd36d46f30d6",
+            "Value": {
+                "id": "1240ced7-a1c2-4622-ad4c-e29d8088753d",
+                "resourcePath": "sprites\\sprite_playerMeleeAttack\\sprite_playerMeleeAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d035701d-4247-43c2-94b6-34c95f0ebd54",
             "Value": {
                 "id": "b2b8dad4-6361-48e3-925c-807f8f98d021",
@@ -503,10 +519,18 @@
             }
         },
         {
-            "Key": "d136596e-f2fd-4b96-8607-b368af1fdb2a",
+            "Key": "d6bb19e1-7de9-4c8a-b12c-6deca3441b79",
             "Value": {
-                "id": "6f953d79-df2e-4cdc-b24b-9ed158485b4f",
-                "resourcePath": "sprites\\sprite_playerMeleeAttack\\sprite_playerMeleeAttack.yy",
+                "id": "30d75fb3-2be1-4f09-8816-bf0c55e70d76",
+                "resourcePath": "sprites\\umbrella\\umbrella.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dcb09c05-adeb-4db9-8670-9536beb724dd",
+            "Value": {
+                "id": "2d92c18f-a6e5-42e2-907f-ccf6a594edd8",
+                "resourcePath": "sprites\\sprite_playerCrouching\\sprite_playerCrouching.yy",
                 "resourceType": "GMSprite"
             }
         },
