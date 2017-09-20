@@ -4,8 +4,10 @@
 if(!instance_exists(follow)) { //checks if object exists
 	exit;
 }
-xTo = follow.x;
-yTo = follow.y;
+
+
+xTo = follow.x + lengthdir_x((point_distance(follow.x, follow.y, object_crosshair.x, object_crosshair.y)*0.3), point_direction(follow.x, follow.y, object_crosshair.x ,object_crosshair.y));
+yTo = follow.y + lengthdir_y((point_distance(follow.x, follow.y, object_crosshair.x, object_crosshair.y)*0.3), point_direction(follow.x, follow.y, object_crosshair.x ,object_crosshair.y));
 
 //Updates the camera controllers position
 

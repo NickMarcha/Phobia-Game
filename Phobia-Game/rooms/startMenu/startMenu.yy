@@ -7,15 +7,15 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "501d7535-6a0a-4ade-a0f6-c78582a68c42",
-        "67c3db20-ed3c-41f6-b392-6b73e575eab6"
+        "cb21793e-e3fd-4362-8dad-66004e01af03",
+        "32a74d0f-a7a8-4867-9d9c-bc4490d2206b"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Mouse",
-            "id": "88810d04-366a-4c10-8d34-1578ca417cab",
+            "name": "Instances_1",
+            "id": "780ab99f-4e6f-4bae-ad87-99f367dc8af8",
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
@@ -26,33 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-                {"name": "inst_276FFB83","id": "67c3db20-ed3c-41f6-b392-6b73e575eab6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_276FFB83","objId": "e5037726-d33a-43a8-854f-9ff1b380ce51","rotation": 0,"scaleX": 3,"scaleY": 3,"mvc": "1.0","x": 722,"y": 500}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": true
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Buttons",
-            "id": "a1f9d735-6cf3-458b-b82e-17ac249e1788",
-            "depth": 100,
-            "grid_x": 20,
-            "grid_y": 20,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-                {"name": "inst_444ED141","id": "501d7535-6a0a-4ade-a0f6-c78582a68c42","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_444ED141","objId": "358635a9-cae3-4501-b3c6-16da44b1c3a6","rotation": 0,"scaleX": 3.8,"scaleY": 3.4,"mvc": "1.0","x": 720,"y": 420}
+                {"name": "inst_4B3F819A","id": "cb21793e-e3fd-4362-8dad-66004e01af03","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4B3F819A","objId": "1cc2fef3-1851-4b0b-890c-f7a5ff58ca3a","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 352,"y": 192},
+                {"name": "inst_4D8EB801","id": "32a74d0f-a7a8-4867-9d9c-bc4490d2206b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4D8EB801","objId": "f11100a8-be83-4e53-a9bb-62c1e2df5375","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 992,"y": 640}
             ],
             "layers": [
 
@@ -71,7 +46,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 200,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
