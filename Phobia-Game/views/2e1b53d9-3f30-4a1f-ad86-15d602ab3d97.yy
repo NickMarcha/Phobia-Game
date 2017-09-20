@@ -10,7 +10,7 @@
         "03086c37-aaf3-48b0-8ae8-7cefe87610f4"
     ],
     "filterType": "GMSprite",
-    "folderName": "Garden and Outside",
+    "folderName": "Outside and Garden",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
