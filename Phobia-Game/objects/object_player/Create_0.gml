@@ -9,12 +9,13 @@ jumpStamina = 0;
 //weapons
 melee_fist = 0;
 melee_umbrella = 1;
-gun = 3;
+gun = 2;
+lastWeapon = 2;
 
+weapon = melee_umbrella;
 
-weapon = gun;
-
-weapons[1] = object_weaponUmbrella;
+weaponDamage[melee_umbrella] = 10;
+weaponDamage[gun] = 5;
 
 //states
 
@@ -29,8 +30,20 @@ state = 0;
 //
 Health = 100;
 Fear = 0;
+timer = 0;
 fearCap = 100;
+hit = 0;
+immunityFrames = 0;
+immunityTime = 60;
 
 
 //input
 triggerRight = false;
+
+// gun
+
+fireingDelay = 0;
+recoil = 0;
+controllerAngle = 0;
+
+

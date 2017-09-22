@@ -11,7 +11,8 @@
         "a1de08d0-0518-4571-902c-7aa3ee13c42c",
         "dcb09c05-adeb-4db9-8670-9536beb724dd",
         "4c97f905-d83c-47bf-9722-86320feebd78",
-        "bc85cbc8-1070-487f-b7a0-76468b613726"
+        "bc85cbc8-1070-487f-b7a0-76468b613726",
+        "a31cce8e-76cc-490e-b084-3a64eb678888"
     ],
     "filterType": "GMSprite",
     "folderName": "Normal State",
