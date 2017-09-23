@@ -2,7 +2,7 @@
     "id": "f34ff29a-0e9a-4903-aca6-f2781e4bfce1",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset_GradientShadows",
+    "name": "tileset_gradientShadows",
     "auto_tile_sets": [
         
     ],

@@ -9,7 +9,7 @@
         "7d8de39e-4f30-43eb-9104-d1b76c42d75e"
     ],
     "filterType": "GMObject",
-    "folderName": "Hud",
+    "folderName": "HUD",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

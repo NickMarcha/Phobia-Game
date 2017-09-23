@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "291fb02f-0997-4419-896e-eab0c16b864c",
+            "Value": {
+                "id": "d46e09ba-5fb0-4601-8434-dd68c3785a98",
+                "resourcePath": "tilesets\\tileset_furniture\\tileset_furniture.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "29b9670b-0fd2-4df2-bcc5-936a7e50594e",
             "Value": {
                 "id": "8f2a39ba-c295-410b-ad50-d8394fc6b943",
@@ -340,6 +348,14 @@
                 "id": "606a1945-2fc3-4d44-8296-df1e1b56062b",
                 "resourcePath": "views\\5ed1669f-d285-4e91-a3c2-fc1e4a5acb87.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60defe12-6265-4d02-ae4b-fa93bcadb99c",
+            "Value": {
+                "id": "a8fa5cdf-c300-4709-9fe3-c80d9fd777ed",
+                "resourcePath": "sprites\\sprite_tilesetFurniture\\sprite_tilesetFurniture.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -762,7 +778,7 @@
             "Key": "d28c70cf-0971-43e0-b6ca-887b21ea3639",
             "Value": {
                 "id": "4916f758-aa83-48c0-a9fa-d0ee88e8eaf6",
-                "resourcePath": "tilesets\\tileset_House\\tileset_House.yy",
+                "resourcePath": "tilesets\\tileset_house\\tileset_house.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -834,7 +850,7 @@
             "Key": "f34ff29a-0e9a-4903-aca6-f2781e4bfce1",
             "Value": {
                 "id": "b28999e3-c4d5-4192-9439-ffe17926549b",
-                "resourcePath": "tilesets\\tileset_GradientShadows\\tileset_GradientShadows.yy",
+                "resourcePath": "tilesets\\tileset_gradientShadows\\tileset_gradientShadows.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -852,6 +868,14 @@
                 "id": "eaaad97f-e781-4081-a371-11c9158e897a",
                 "resourcePath": "views\\f58f8ffc-1591-430a-925c-6defd8b3a181.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f644a2dd-34f5-442f-be16-68a2382ac439",
+            "Value": {
+                "id": "2b1760d8-5c44-4de1-b0a2-8ffd060932ce",
+                "resourcePath": "sprites\\sprite_test\\sprite_test.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

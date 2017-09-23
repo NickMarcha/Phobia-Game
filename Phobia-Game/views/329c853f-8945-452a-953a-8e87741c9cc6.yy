@@ -11,7 +11,7 @@
         "41d7b2f1-0936-48ee-9d32-a3251bd9171a"
     ],
     "filterType": "GMSprite",
-    "folderName": "Hud",
+    "folderName": "HUD",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
