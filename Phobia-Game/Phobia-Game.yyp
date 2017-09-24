@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2322f374-8e8a-43aa-8edf-0ba766515267",
+            "Value": {
+                "id": "827ead42-4a8a-49fd-99c3-20760c819163",
+                "resourcePath": "rooms\\room_EndScreen\\room_EndScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "23fe75bb-b2cb-4019-9552-0feef7c2862d",
             "Value": {
                 "id": "62e07267-ce8b-4e0f-a1b0-5581e03ad1d3",
@@ -743,6 +751,14 @@
             }
         },
         {
+            "Key": "b75f62ae-8dad-40f8-a3e1-8ac06b304bfa",
+            "Value": {
+                "id": "9d0ad62f-d9bc-4e25-a24e-dc98541b83a7",
+                "resourcePath": "sprites\\sprite_EndDeathScreen\\sprite_EndDeathScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8759b15-72a5-4da8-b430-c57569a581ee",
             "Value": {
                 "id": "884a1cd0-2d30-4899-acd2-d9becae6f503",
@@ -815,14 +831,6 @@
             }
         },
         {
-            "Key": "cd332f14-6cfc-496b-91a4-4159b2165ec7",
-            "Value": {
-                "id": "f6d160cc-c70e-42fd-87a6-9e50e8b778d2",
-                "resourcePath": "sprites\\sprite_StartScreenGlasses\\sprite_StartScreenGlasses.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cd59f62e-2d4b-411a-bde8-d5a7ad807a0d",
             "Value": {
                 "id": "772acd88-cade-4d6e-bd51-b212b148be0a",
@@ -876,6 +884,14 @@
                 "id": "31568ac6-77c7-4cde-9fb2-c70cbc1809e0",
                 "resourcePath": "views\\d4c2cfcb-7833-4b84-b1ce-315f26da343b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d4df4736-470a-4687-b10d-086aec3996d1",
+            "Value": {
+                "id": "5b89be3d-3507-4017-89d2-d2c0a858904c",
+                "resourcePath": "sprites\\sprite_GameNameScreen\\sprite_GameNameScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

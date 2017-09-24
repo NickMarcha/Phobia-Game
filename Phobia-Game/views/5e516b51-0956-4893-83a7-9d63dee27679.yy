@@ -8,7 +8,8 @@
         "758c663a-f6b0-42d9-8cb7-d98b5f12828c",
         "8e697c7a-0a9d-4648-b6cc-4dbb1f90bdb7",
         "44ea9720-bdfb-46b7-8117-21d3faa985f2",
-        "cd332f14-6cfc-496b-91a4-4159b2165ec7"
+        "d4df4736-470a-4687-b10d-086aec3996d1",
+        "b75f62ae-8dad-40f8-a3e1-8ac06b304bfa"
     ],
     "filterType": "GMSprite",
     "folderName": "Start Menu",
