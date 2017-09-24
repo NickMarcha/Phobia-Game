@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.pause) exit;
+if(global.pause) {
+	speed = 0;
+} else {
+	speed = 25;
+}
 
 if(place_meeting(x,y,object_wall)) {
 	instance_destroy(self);

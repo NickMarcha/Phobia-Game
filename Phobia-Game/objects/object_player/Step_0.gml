@@ -103,9 +103,9 @@ if(state == attack) {
 						if(hit == 0 && immunityFrames == 0) {
 							hit = 1;
 							verticalSpeed = -4;
-							move = sign(x -other.x) * 2;
+							move = sign(x - other.x) * 1.5;
 							attackTimer = attackCooldown;
-							image_xscale = sign(horizontalSpeed);
+							//image_xscale = sign(horizontalSpeed);
 						}
 					}
 				}
@@ -130,7 +130,7 @@ if(jumpStamina > 0) {
 	jumpStamina = max(jumpStamina -1,0)
 }
 
-if(jumpStamina == 0 &&buttonA &&(state == walking || state == idle || state == running) )  {
+if(jumpStamina == 0 && buttonA &&(state == walking || state == idle || state == running))  {
 	state = jumping;
 	verticalSpeed = -3;
 	horizontalSpeed = 1.2* sign(horizontalSpeed);
