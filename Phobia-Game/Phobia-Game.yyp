@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "b045e07e-85f7-4e93-8840-6955ac66326e",
+            "Value": {
+                "id": "135753d3-fdb4-4d90-a9c9-7546edc1fede",
+                "resourcePath": "sprites\\sprite_playerIdleWMelee\\sprite_playerIdleWMelee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b19754a3-b826-4b8b-8c29-70f3a316c721",
             "Value": {
                 "id": "01ce3af2-f8b5-4045-9cb4-c63034f73f50",
