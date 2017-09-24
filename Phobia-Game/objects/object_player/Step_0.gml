@@ -73,7 +73,7 @@ if(state == attack) {
 				if( object_player.weapon == object_player.gun &&object_player.triggerRight  && fireingDelay < 0) {
 					fireingDelay = 6;
 					recoil = 4;
-	
+					script_screenshake(view_camera[0],3,30);
 					with(instance_create_layer(x,y,"Bullets",object_bullet)) {
 						speed = 25;
 						direction = other.image_angle + random_range(-3,3);
