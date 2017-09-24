@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01a02b0d-0ca3-4f22-a2e4-e820d1d90830",
+            "Value": {
+                "id": "db0dbcc9-cada-4512-9f01-3a52e74dc4cd",
+                "resourcePath": "sprites\\sprite_revolver\\sprite_revolver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08698827-d7c7-4f26-98b0-28ea6d838da5",
             "Value": {
                 "id": "85d443c9-2f3e-4404-8239-1e24a7fa4582",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "824af1b8-c233-4cfc-a2fc-462f30a0b6d7",
+            "Value": {
+                "id": "f4895f35-f8bf-4cf4-90c0-59be0c6f9de4",
+                "resourcePath": "sprites\\sprite_shotgun\\sprite_shotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85f5643a-c425-4971-b0a0-63c60002567d",
             "Value": {
                 "id": "aecd0cc3-72fc-4859-b89b-1c880984985c",
@@ -548,6 +564,14 @@
                 "id": "3a976519-85da-4ecd-9b0e-c3a2613a3e35",
                 "resourcePath": "fonts\\font_comicSansMS_small\\font_comicSansMS_small.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8cfa099c-1e17-47c9-bcf3-da1233bb8dcf",
+            "Value": {
+                "id": "eddb8100-5411-4f2f-95c5-fd53c52007b3",
+                "resourcePath": "objects\\object_endScreen\\object_endScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -820,14 +844,6 @@
                 "id": "27f1a05c-04fd-4a69-b768-573562a73ca3",
                 "resourcePath": "objects\\object_player\\object_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c38349bc-8300-429a-9740-2e5588c41149",
-            "Value": {
-                "id": "52c12cf3-cfd2-4606-bcb3-f9b906041340",
-                "resourcePath": "sprites\\sprite_gun\\sprite_gun.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
