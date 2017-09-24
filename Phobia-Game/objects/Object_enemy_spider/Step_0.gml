@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(global.pause) exit;
-if(immunityFrames > 0) {
-	move =0;
-}
+
+move =0;
+
 // damage taken
 if( Health < 0) {
 	instance_destroy(self);
@@ -18,14 +18,16 @@ if( immunityFrames > 0) {
 distanceToPlayer = point_distance(x,y,object_player.x,object_player.y);
 
 if((immunityFrames > 0||distanceToPlayer < traceRange) && state == idle && attackTimer ==0) {
+	show_debug_message("Enemy is tracing");
 	state = tracing;
 	
 }
 if(attackTimer > 0) {
-	attackTimer --;
+	attackTimer = max(attackTimer -1 , 0);
 }
 
-if(distanceToPlayer < attackRange && state == tracing&& attackTimer ==0 && immunityFrames == 0) {
+if((distanceToPlayer < attackRange) && state == tracing && attackTimer == 0 && immunityFrames == 0) {
+	show_debug_message("Enemy is attacking");
 	attackTimer = attackCooldown;
 	state = attack;
 	verticalSpeed = -3;
@@ -33,16 +35,16 @@ if(distanceToPlayer < attackRange && state == tracing&& attackTimer ==0 && immun
 }
 
 if(state == tracing && immunityFrames > 0) {
+	show_debug_message("Enemy is moving");
 	move = sign(object_player.x -x);
 }
 
 if(state == attack&& immunityFrames > 0) {
-
+	show_debug_message("Enemy is in attack");
 	move = directionAttack;
 	with(object_player) {
 	
 		if(place_meeting(x,y,other)&& immunityFrames == 0) {
-			show_debug_message("hasHit");
 			hit = 1;
 			Health -= other.attackDamage;
 			other.state = idle;
@@ -50,9 +52,14 @@ if(state == attack&& immunityFrames > 0) {
 
 		}
 	}
-	if(place_meeting(x, y+verticalSpeed, object_wall)) {
+	if(place_meeting(x, y + verticalSpeed, object_wall)) {
 		state = idle;
 	}
+}
+
+if( distanceToPlayer > traceRange) {
+	show_debug_message("Enemy is idling");
+	state = idle;
 }
 
 //movement

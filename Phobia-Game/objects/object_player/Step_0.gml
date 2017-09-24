@@ -194,7 +194,7 @@ timer ++;
 if(attackTimer > 0) {
 	attackTimer--;
 }
-if(Health < 1 && Fear > fearCap) {
+if(Health < 1 || Fear > fearCap) {
 	room_restart();
 }
 if(timer % 120 == 0 && Fear > 0) {
@@ -202,28 +202,20 @@ if(timer % 120 == 0 && Fear > 0) {
 }
 
 //animations
-switch (state) {
-	case attack:
-		if(weapon == melee_umbrella) {
+
+if( state == attack) {
+	if(weapon == melee_umbrella) {
 			sprite_index = sprite_playerMeleeAttack;
 			
 		} else if(horizontalSpeed !=0) {
+			//for walking with gun
 			sprite_index = sprite_playerWalking;
 		} else {
+			//for standing with gun
 			sprite_index = sprite_playerIdle;
 		}
-		break;
-		
-	/*Forsøkte å legge til jumping animation, så tuklet litt med case'ene under.
-	  Fungerte svært dårlig, men ødelagte ikke koden. Se om du får det til å fungere.
-	  Har lagt til shitty-McDippy half-assed jumping animation.
-	*/
-	
-	case running:
-	case jumping:
-		sprite_index = sprite_playerJumping;
-	case walking:
-		if(weapon = melee_fist) {
+} else if ( state == walking || state == running) {
+	if(weapon = melee_fist) {
 		sprite_index = sprite_playerWalking;
 		} else if( weapon = melee_umbrella) {
 			sprite_index = sprite_playerWalkingWMelee;
@@ -232,9 +224,8 @@ switch (state) {
 		} else {
 			sprite_index = sprite_playerWalking;
 		}
-		break;
-	case idle:
-	default:
-		sprite_index = sprite_playerIdle;
-		break;
+}else if ( state == idle) {
+	sprite_index = sprite_playerIdle;
 }
+
+
