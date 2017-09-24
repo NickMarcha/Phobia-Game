@@ -195,7 +195,8 @@ if(attackTimer > 0) {
 	attackTimer--;
 }
 if(Health < 1 || Fear > fearCap) {
-	room_restart();
+	//Player has died
+	room_goto(room_EndScreen);
 }
 if(timer % 120 == 0 && Fear > 0) {
 	Fear--;

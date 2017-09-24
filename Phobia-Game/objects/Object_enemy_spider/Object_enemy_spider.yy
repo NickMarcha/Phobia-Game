@@ -2,7 +2,7 @@
     "id": "ae1b8e2b-b6b1-47e3-9b53-ba399f158d67",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Object_enemy_spider",
+    "name": "object_enemy_spider",
     "eventList": [
         {
             "id": "5abca9ce-621a-4f79-af89-80c31fd02c8a",
@@ -32,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "ae1b8e2b-b6b1-47e3-9b53-ba399f158d67"
+        },
+        {
+            "id": "8944d4b1-001c-4f40-bfae-8c79e712d25d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
             "m_owner": "ae1b8e2b-b6b1-47e3-9b53-ba399f158d67"
         }
     ],
