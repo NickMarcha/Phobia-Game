@@ -152,6 +152,13 @@
                     "mvc": "1.0",
                     "FrameId": "f387caa0-a679-43eb-9275-ba071a0f3647",
                     "LayerId": "e7b2bb03-2146-4f9b-a6bb-e0b7355962ca"
+                },
+                {
+                    "id": "4140203e-bc6e-4e01-ae08-703370726a49",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "f387caa0-a679-43eb-9275-ba071a0f3647",
+                    "LayerId": "eaef8774-3999-48a1-b04f-0dcbac8a6b00"
                 }
             ]
         }
@@ -160,6 +167,17 @@
     "gridY": 0,
     "height": 64,
     "layers": [
+        {
+            "id": "eaef8774-3999-48a1-b04f-0dcbac8a6b00",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "34409d80-5e09-439c-8660-0a4d7193678d",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Gun",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "ab3c6dff-bc9e-4450-9dd9-7f08c19e5942",
             "modelName": "GMImageLayer",

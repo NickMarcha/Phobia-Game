@@ -1221,7 +1221,7 @@
             "isLocked": false,
             "name": "Left Arm",
             "opacity": 100,
-            "visible": true
+            "visible": false
         },
         {
             "id": "473e63dc-d67d-46e7-8b10-befca232f2d6",

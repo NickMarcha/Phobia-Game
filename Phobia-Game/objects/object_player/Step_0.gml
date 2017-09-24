@@ -35,8 +35,10 @@ buttonShoulderRight = gamepad_button_check_pressed(0,gp_shoulderr);
 //weapon switching
 if( buttonShoulderLeft) {
 	weapon --;
+	state = idle;
 } else if ( buttonShoulderRight) {
 	weapon ++;
+	state = idle;
 }
 if(weapon < 0) {
 	weapon = lastWeapon;
@@ -52,9 +54,11 @@ if(gamepad_button_check_pressed(0,gp_shoulderrb)) {
 	triggerRight = false;
 }
 //checks if able to attack
-if(triggerRight &&(state == idle|| state == running||state == walking|| state == attack)) {
+if(triggerRight &&(state == idle|| state == running||state == walking|| state == attack) && attackTimer ==0) {
 	state = attack;
-	
+	if(weapon == melee_umbrella) {
+		attackTimer = attackCooldown;
+	}
 } 
 
 //handles attacking based on weapon
@@ -98,14 +102,14 @@ if(state == attack) {
 					with (instance_place(x,y,parent_enemy)) {
 						if(hit == 0 && immunityFrames == 0) {
 							hit = 1;
-							verticalSpeed = -3;
-							horizontalSpeed = sign(x -other.x) * 4;
+							verticalSpeed = -4;
+							move = sign(x -other.x) * 2;
 							attackTimer = attackCooldown;
 							image_xscale = sign(horizontalSpeed);
 						}
 					}
 				}
-			}else if (image_index > 9) {
+			}else if (image_index > 8) {
 				state = idle;
 			}	
 			move = 0.5 * sign(image_xscale);
@@ -187,6 +191,9 @@ if( immunityFrames != 0) {
 } 
 //checks if dead
 timer ++;
+if(attackTimer > 0) {
+	attackTimer--;
+}
 if(Health < 1 && Fear > fearCap) {
 	room_restart();
 }
@@ -205,20 +212,29 @@ switch (state) {
 		} else {
 			sprite_index = sprite_playerIdle;
 		}
-		
-		
 		break;
+		
+	/*Forsøkte å legge til jumping animation, så tuklet litt med case'ene under.
+	  Fungerte svært dårlig, men ødelagte ikke koden. Se om du får det til å fungere.
+	  Har lagt til shitty-McDippy half-assed jumping animation.
+	*/
+	
 	case running:
+	case jumping:
+		sprite_index = sprite_playerJumping;
 	case walking:
-		if(weapon = melee_fist){
+		if(weapon = melee_fist) {
 		sprite_index = sprite_playerWalking;
 		} else if( weapon = melee_umbrella) {
 			sprite_index = sprite_playerWalkingWMelee;
+		} else if( weapon = melee_umbrella && verticalSpeed != 0) {
+			sprite_index = sprite_playerJumping;
 		} else {
 			sprite_index = sprite_playerWalking;
 		}
-	break;
+		break;
 	case idle:
 	default:
 		sprite_index = sprite_playerIdle;
+		break;
 }

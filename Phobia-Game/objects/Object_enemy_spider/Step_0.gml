@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-move =0;
-
+if(global.pause) exit;
+if(immunityFrames > 0) {
+	move =0;
+}
 // damage taken
 if( Health < 0) {
 	instance_destroy(self);
@@ -30,11 +32,11 @@ if(distanceToPlayer < attackRange && state == tracing&& attackTimer ==0 && immun
 	directionAttack = 0.7* sign(horizontalSpeed);
 }
 
-if(state == tracing) {
+if(state == tracing && immunityFrames > 0) {
 	move = sign(object_player.x -x);
 }
 
-if(state == attack) {
+if(state == attack&& immunityFrames > 0) {
 
 	move = directionAttack;
 	with(object_player) {

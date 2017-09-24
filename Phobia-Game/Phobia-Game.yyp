@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "092a4664-c02d-4ad6-95d1-642d2f1c3417",
+            "Value": {
+                "id": "5ea1ca07-366e-4664-a115-8fbccd27c154",
+                "resourcePath": "sprites\\sprite_enemy_duckLarge\\sprite_enemy_duckLarge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0956adb1-095d-4c7f-b953-93e88bffa948",
+            "Value": {
+                "id": "0ec9b398-7126-43f8-9a20-8f89c83893ae",
+                "resourcePath": "sprites\\sprite_enemy_duckSmall\\sprite_enemy_duckSmall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c92e79c-1855-43e0-93f1-f761b153c647",
             "Value": {
                 "id": "7dc52f33-33a2-46a9-8a2a-006bbe2fc335",
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "396031e9-7409-4db3-8c9b-aba270d0ed9e",
+            "Value": {
+                "id": "5ba014fc-c8e8-48bd-9518-d17ce06ff990",
+                "resourcePath": "sprites\\sprite_playerJumping\\sprite_playerJumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3be8cb63-49cf-46a6-9f0a-23551b206f46",
             "Value": {
                 "id": "fbc15275-1cdf-4800-aac8-5b5a43b32dae",
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "44ea9720-bdfb-46b7-8117-21d3faa985f2",
+            "Value": {
+                "id": "4e4b3c11-c823-44b6-a161-32a35413264c",
+                "resourcePath": "sprites\\sprite_StartScreen\\sprite_StartScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44f7db2f-3c2b-4373-a750-e1b20ae7fa4c",
             "Value": {
                 "id": "19b1fc1f-8f48-4745-a91d-bd76a48f5e70",
@@ -242,7 +274,7 @@
             "Key": "497f1eee-ec37-449b-bdf2-d219a8441a26",
             "Value": {
                 "id": "dc66126b-1714-4b99-97b1-bbc2c35dff0e",
-                "resourcePath": "sprites\\sprite_playerRunning\\sprite_playerRunning.yy",
+                "resourcePath": "sprites\\sprite_playerRunning_X\\sprite_playerRunning_X.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -431,6 +463,14 @@
             }
         },
         {
+            "Key": "77700a69-a1c8-4575-b173-61fe024f6a2a",
+            "Value": {
+                "id": "382ef381-43d1-4165-a921-69703a0f7a42",
+                "resourcePath": "sprites\\sprite_enemy_duckMed\\sprite_enemy_duckMed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d8de39e-4f30-43eb-9104-d1b76c42d75e",
             "Value": {
                 "id": "247b71fd-34bf-4c76-bd04-7425c8b65392",
@@ -559,10 +599,34 @@
             }
         },
         {
+            "Key": "9e180c4f-08b4-4303-b3c2-380730ef8803",
+            "Value": {
+                "id": "43f77ae6-8780-4d84-85a3-2f2183eedbe7",
+                "resourcePath": "sprites\\sprite_playerMeleeJumpAttack\\sprite_playerMeleeJumpAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9fd7e57a-d5ce-43c9-9053-aee03ce26afa",
+            "Value": {
+                "id": "9a3a036d-9d9e-4606-a359-521241b84e8a",
+                "resourcePath": "sprites\\sprite_playerRevolverAndReload\\sprite_playerRevolverAndReload.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a11aa874-4b1c-4935-aa83-1904861d5cd9",
+            "Value": {
+                "id": "2b0b2e59-cbbd-41fb-827b-ad6826d989c1",
+                "resourcePath": "sprites\\sprite_enemy_duckStranger\\sprite_enemy_duckStranger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1de08d0-0518-4571-902c-7aa3ee13c42c",
             "Value": {
                 "id": "fbadeb84-a45a-4cb7-8985-ba8c03a4773b",
-                "resourcePath": "sprites\\sprite_playerRangedAttack\\sprite_playerRangedAttack.yy",
+                "resourcePath": "sprites\\sprite_playerRangedAttack_X\\sprite_playerRangedAttack_X.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -572,6 +636,14 @@
                 "id": "a1475e81-cb28-4b0e-a99c-280d92aa03ae",
                 "resourcePath": "views\\a23212c6-c678-4a29-b218-f61cbb519512.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a250e5b1-c647-47d9-bb68-424450b924b9",
+            "Value": {
+                "id": "d7fec3e9-055f-4fff-bd1a-2b1117c3bfab",
+                "resourcePath": "sprites\\sprite_playerShotgunAndReload\\sprite_playerShotgunAndReload.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -679,14 +751,6 @@
             }
         },
         {
-            "Key": "bc85cbc8-1070-487f-b7a0-76468b613726",
-            "Value": {
-                "id": "e37909dd-2cfa-4d88-9638-8e0e19325e79",
-                "resourcePath": "sprites\\sprite_playerJumping\\sprite_playerJumping.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "bfd8a1f5-c3a7-4a31-b9ac-1f6774a7a235",
             "Value": {
                 "id": "f3cbb118-a100-47b9-9530-3822928a5ecc",
@@ -740,6 +804,22 @@
                 "id": "852944da-6d8b-4b74-a9db-1321fe44e2f0",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd332f14-6cfc-496b-91a4-4159b2165ec7",
+            "Value": {
+                "id": "f6d160cc-c70e-42fd-87a6-9e50e8b778d2",
+                "resourcePath": "sprites\\sprite_StartScreenGlasses\\sprite_StartScreenGlasses.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd59f62e-2d4b-411a-bde8-d5a7ad807a0d",
+            "Value": {
+                "id": "772acd88-cade-4d6e-bd51-b212b148be0a",
+                "resourcePath": "objects\\object_enemy_duckStranger\\object_enemy_duckStranger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -802,8 +882,16 @@
             "Key": "dcb09c05-adeb-4db9-8670-9536beb724dd",
             "Value": {
                 "id": "2d92c18f-a6e5-42e2-907f-ccf6a594edd8",
-                "resourcePath": "sprites\\sprite_playerCrouching\\sprite_playerCrouching.yy",
+                "resourcePath": "sprites\\sprite_playerCrouching_X\\sprite_playerCrouching_X.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de18632c-cf82-45f5-ba85-777793d863b4",
+            "Value": {
+                "id": "7c300279-4673-4a67-b52f-4787291749db",
+                "resourcePath": "objects\\object_enemy_duck\\object_enemy_duck.yy",
+                "resourceType": "GMObject"
             }
         },
         {

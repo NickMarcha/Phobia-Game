@@ -17,6 +17,9 @@ weapon = melee_umbrella;
 weaponDamage[melee_umbrella] = 10;
 weaponDamage[gun] = 5;
 
+attackCooldown = 40;
+attackTimer = 0;
+
 //states
 
 idle = 0
