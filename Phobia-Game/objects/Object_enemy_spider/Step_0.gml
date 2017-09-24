@@ -2,7 +2,15 @@
 // You can write your code in this editor
 if(global.pause) exit;
 
-move =0;
+if(hit) {
+	hit = 0;
+	immunityFrames =20;
+	Health -= object_player.weaponDamage[object_player.weapon];
+}
+
+if(immunityFrames == 0) {
+	move =0;
+}
 
 // damage taken
 if( Health < 0) {
@@ -34,12 +42,12 @@ if((distanceToPlayer < attackRange) && state == tracing && attackTimer == 0 && i
 	directionAttack = 0.7* sign(horizontalSpeed);
 }
 
-if(state == tracing && immunityFrames > 0) {
+if(state == tracing && immunityFrames == 0) {
 	show_debug_message("Enemy is moving");
 	move = sign(object_player.x -x);
 }
 
-if(state == attack&& immunityFrames > 0) {
+if(state == attack&& immunityFrames == 0) {
 	show_debug_message("Enemy is in attack");
 	move = directionAttack;
 	with(object_player) {
@@ -75,6 +83,7 @@ if(place_meeting(x+horizontalSpeed, y, object_wall)) {
 		x += sign(horizontalSpeed);
 	}
 	horizontalSpeed = 0;
+	
 }
 
 
@@ -93,11 +102,7 @@ if(place_meeting(x, y+verticalSpeed, object_wall)) {
 
 
 y += verticalSpeed;
-if(hit) {
-	hit = 0;
-	immunityFrames =20;
-	Health -= object_player.weaponDamage[object_player.weapon];
-}
+
 
 
 
