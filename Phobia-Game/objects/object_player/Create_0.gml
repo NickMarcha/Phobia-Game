@@ -10,7 +10,8 @@ jumpStamina = 0;
 melee_fist = 0;
 melee_umbrella = 1;
 gun = 2;
-lastWeapon = 2;
+shotgun =3;
+lastWeapon = 3;
 
 weapon = melee_umbrella;
 

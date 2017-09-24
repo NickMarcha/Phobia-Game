@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01a02b0d-0ca3-4f22-a2e4-e820d1d90830",
+            "Value": {
+                "id": "db0dbcc9-cada-4512-9f01-3a52e74dc4cd",
+                "resourcePath": "sprites\\sprite_revolver\\sprite_revolver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08698827-d7c7-4f26-98b0-28ea6d838da5",
             "Value": {
                 "id": "85d443c9-2f3e-4404-8239-1e24a7fa4582",
@@ -63,11 +71,27 @@
             }
         },
         {
+            "Key": "0a645a89-c557-4855-8d82-af0c084b0fe8",
+            "Value": {
+                "id": "dc1bd52e-a2a4-4d12-9cf5-3aa07b8f3827",
+                "resourcePath": "objects\\object_spawnController\\object_spawnController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c92e79c-1855-43e0-93f1-f761b153c647",
             "Value": {
                 "id": "7dc52f33-33a2-46a9-8a2a-006bbe2fc335",
                 "resourcePath": "scripts\\script_wave\\script_wave.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0df4fe02-20db-4f5d-8449-69e888121b28",
+            "Value": {
+                "id": "e55db2e3-fb0b-455f-8b6a-184f08d4585a",
+                "resourcePath": "objects\\object_preLoadScreen\\object_preLoadScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,14 +167,6 @@
             }
         },
         {
-            "Key": "23e49b08-3f05-4e1b-9a18-8b1c625bedf4",
-            "Value": {
-                "id": "7912d8ea-aaa6-4336-b939-2f6d5abb1190",
-                "resourcePath": "sprites\\sprite_enemy_duckStrangerIdle\\sprite_enemy_duckStrangerIdle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "23fe75bb-b2cb-4019-9552-0feef7c2862d",
             "Value": {
                 "id": "62e07267-ce8b-4e0f-a1b0-5581e03ad1d3",
@@ -164,14 +180,6 @@
                 "id": "23ece1a1-f0b0-4eeb-9862-c00bd8c99085",
                 "resourcePath": "objects\\object_hitbox_meleeUmbrella\\object_hitbox_meleeUmbrella.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "275cc232-8321-45df-b317-735fd4aef6f0",
-            "Value": {
-                "id": "66834fb2-b8c7-4525-b69d-3e4e838f4cb7",
-                "resourcePath": "sprites\\sprite_SphereGradient\\sprite_SphereGradient.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,27 +199,11 @@
             }
         },
         {
-            "Key": "29b9670b-0fd2-4df2-bcc5-936a7e50594e",
-            "Value": {
-                "id": "8f2a39ba-c295-410b-ad50-d8394fc6b943",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "29c7075b-b994-476f-bf77-b0869e3b2d48",
             "Value": {
                 "id": "bb13f801-017a-4bee-aca3-b7feff509f2b",
                 "resourcePath": "scripts\\script_screenshake\\script_screenshake.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "29ee3e71-37dd-4917-a110-ef06e9b9ab73",
-            "Value": {
-                "id": "b868432e-5ae2-41f9-89e9-017ba6d6afa1",
-                "resourcePath": "sprites\\sprite_EndDeathScreen\\sprite_EndDeathScreen.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +260,14 @@
                 "id": "fbc15275-1cdf-4800-aac8-5b5a43b32dae",
                 "resourcePath": "sprites\\sprite_enemy_spider\\sprite_enemy_spider.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c50e411-5d66-4b0f-94f5-aa5316e5e2f5",
+            "Value": {
+                "id": "835d155a-fe4a-4876-a055-5cfbd25fdb4f",
+                "resourcePath": "objects\\object_nothing\\object_nothing.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -471,27 +471,11 @@
             }
         },
         {
-            "Key": "672a997e-afa5-4530-9d60-8d1d6004388f",
-            "Value": {
-                "id": "2d11ae4f-ef70-4f76-bebc-5d2bde937064",
-                "resourcePath": "sprites\\sprite_enemy_duckSmallWalking\\sprite_enemy_duckSmallWalking.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "67a08002-05c7-4556-8a55-b47c80b71fdc",
             "Value": {
                 "id": "064f908d-0205-4d05-bbfc-efb39b2ddd08",
                 "resourcePath": "views\\67a08002-05c7-4556-8a55-b47c80b71fdc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "67e9a001-cf51-423d-967d-ad8f1ad1aedd",
-            "Value": {
-                "id": "11bc9177-47c7-48aa-b550-1b225204451e",
-                "resourcePath": "sprites\\sprite_enemy_duckStranger\\sprite_enemy_duckStranger.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +535,14 @@
             }
         },
         {
+            "Key": "824af1b8-c233-4cfc-a2fc-462f30a0b6d7",
+            "Value": {
+                "id": "f4895f35-f8bf-4cf4-90c0-59be0c6f9de4",
+                "resourcePath": "sprites\\sprite_shotgun\\sprite_shotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85f5643a-c425-4971-b0a0-63c60002567d",
             "Value": {
                 "id": "aecd0cc3-72fc-4859-b89b-1c880984985c",
@@ -572,6 +564,14 @@
                 "id": "3a976519-85da-4ecd-9b0e-c3a2613a3e35",
                 "resourcePath": "fonts\\font_comicSansMS_small\\font_comicSansMS_small.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8cfa099c-1e17-47c9-bcf3-da1233bb8dcf",
+            "Value": {
+                "id": "eddb8100-5411-4f2f-95c5-fd53c52007b3",
+                "resourcePath": "objects\\object_endScreen\\object_endScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -674,7 +674,7 @@
             "Key": "a11aa874-4b1c-4935-aa83-1904861d5cd9",
             "Value": {
                 "id": "2b0b2e59-cbbd-41fb-827b-ad6826d989c1",
-                "resourcePath": "sprites\\sprite_enemy_duckStrangerWalking\\sprite_enemy_duckStrangerWalking.yy",
+                "resourcePath": "sprites\\sprite_enemy_duckStranger\\sprite_enemy_duckStranger.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -770,7 +770,7 @@
             "Key": "ae1b8e2b-b6b1-47e3-9b53-ba399f158d67",
             "Value": {
                 "id": "36e07009-7ddd-42bb-ad57-f6834476200e",
-                "resourcePath": "objects\\Object_enemy_spider\\Object_enemy_spider.yy",
+                "resourcePath": "objects\\object_enemy_spider\\object_enemy_spider.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -795,6 +795,22 @@
             "Value": {
                 "id": "8dbd1d02-dd54-49b0-9ba6-657b9d4ff13a",
                 "resourcePath": "views\\b256ccef-46a0-42a7-985f-e24bcb6c4399.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b75f62ae-8dad-40f8-a3e1-8ac06b304bfa",
+            "Value": {
+                "id": "9d0ad62f-d9bc-4e25-a24e-dc98541b83a7",
+                "resourcePath": "sprites\\sprite_EndDeathScreen\\sprite_EndDeathScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7e01b0b-655e-47d1-bcd1-e31635fa5090",
+            "Value": {
+                "id": "b67d753e-9d2a-475b-9d95-07c198b51d43",
+                "resourcePath": "views\\b7e01b0b-655e-47d1-bcd1-e31635fa5090.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -828,14 +844,6 @@
                 "id": "27f1a05c-04fd-4a69-b768-573562a73ca3",
                 "resourcePath": "objects\\object_player\\object_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c38349bc-8300-429a-9740-2e5588c41149",
-            "Value": {
-                "id": "52c12cf3-cfd2-4606-bcb3-f9b906041340",
-                "resourcePath": "sprites\\sprite_gun\\sprite_gun.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -967,6 +975,22 @@
             }
         },
         {
+            "Key": "da1f83fd-c312-48bf-a8e4-0a029ebd4372",
+            "Value": {
+                "id": "dff6e20c-adcb-4790-90be-576ac82f6aa1",
+                "resourcePath": "sprites\\sprite_enemy_duckStrangerWalking\\sprite_enemy_duckStrangerWalking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db5e989e-f2ff-459e-b3e3-3dab39e465c6",
+            "Value": {
+                "id": "64744475-a348-43d8-9678-2be708b3c155",
+                "resourcePath": "rooms\\preloadScreen\\preloadScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "dcb09c05-adeb-4db9-8670-9536beb724dd",
             "Value": {
                 "id": "2d92c18f-a6e5-42e2-907f-ccf6a594edd8",
@@ -999,14 +1023,6 @@
             }
         },
         {
-            "Key": "ea47a840-71ac-4916-b081-b8b292d4b23e",
-            "Value": {
-                "id": "a7a5d89a-e704-4a81-a21d-d07cfe831b54",
-                "resourcePath": "sprites\\sprite_MenuScreen\\sprite_MenuScreen.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f1063ae0-35d9-42b5-9f1c-24cd3e708732",
             "Value": {
                 "id": "a868b0e7-8d74-4bec-a8c6-f32d741b76d8",
@@ -1028,14 +1044,6 @@
                 "id": "7cc7cf6d-a022-40df-a8b7-c1b8191476c2",
                 "resourcePath": "objects\\object_door\\object_door.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f16c1b90-52ae-49cc-9504-027df2db54ba",
-            "Value": {
-                "id": "2c0048fa-3c7c-4aaf-8fa6-433c3647e5e4",
-                "resourcePath": "sounds\\sound_DeathScreen\\sound_DeathScreen.yy",
-                "resourceType": "GMSound"
             }
         },
         {

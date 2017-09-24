@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = object_player.x;
-y = object_player.y+5;
+x = object_player.x +9;
+y = object_player.y;
 
 image_angle = point_direction(x,y,object_crosshair.x,object_crosshair.y);
 	

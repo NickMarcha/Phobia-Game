@@ -2,7 +2,7 @@
 // You can write your code in this editor
 posX = 20;
 posY = -20;
-multiplier = 3;
+multiplier = 5;
 
 cam = view_camera[0];
 
