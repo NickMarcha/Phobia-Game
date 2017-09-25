@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02feb8be-9158-41f0-b6c9-5dbbdd6ce7dd",
+            "Value": {
+                "id": "f1969a8e-ab2a-4030-945e-ba389ca7c62b",
+                "resourcePath": "sprites\\sprite_playerWalkingWithShotgun\\sprite_playerWalkingWithShotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08698827-d7c7-4f26-98b0-28ea6d838da5",
             "Value": {
                 "id": "85d443c9-2f3e-4404-8239-1e24a7fa4582",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "1dd27e27-d49d-4952-9704-93384a9a490a",
+            "Value": {
+                "id": "0197b625-c36f-47e1-b433-f38d0f174873",
+                "resourcePath": "views\\1dd27e27-d49d-4952-9704-93384a9a490a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2322f374-8e8a-43aa-8edf-0ba766515267",
             "Value": {
                 "id": "827ead42-4a8a-49fd-99c3-20760c819163",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "3123742f-6146-4226-82b0-b37e6de26b76",
+            "Value": {
+                "id": "ca0be6c9-79a7-4c7d-bfc0-e7f7f8578043",
+                "resourcePath": "sprites\\sprite_playerJumpingWithShotgun\\sprite_playerJumpingWithShotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "329c853f-8945-452a-953a-8e87741c9cc6",
             "Value": {
                 "id": "6d5e4a2a-4333-4375-8113-febde83d25ac",
@@ -235,6 +259,14 @@
             "Value": {
                 "id": "2dfb0216-45c4-4937-8111-2fbce88d3de7",
                 "resourcePath": "sprites\\sprite_player\\sprite_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3515732f-78e9-4e0a-b6d3-097a0dfffb97",
+            "Value": {
+                "id": "737f1d70-3918-4cdd-94a1-baf7d551edae",
+                "resourcePath": "sprites\\sprite_playerJumpingWithRevolver\\sprite_playerJumpingWithRevolver.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,6 +364,14 @@
                 "id": "e8f66cee-ca46-4905-9576-641651b245fd",
                 "resourcePath": "views\\4d4c4608-0778-43fc-b4b3-0bf4c9fd802b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4da89690-f509-465f-98a4-979996ddfac2",
+            "Value": {
+                "id": "9b3ee197-f4b2-4bc8-88f1-83d44f5f0c17",
+                "resourcePath": "sprites\\x_sprite_enemy_duckSmallWalking\\x_sprite_enemy_duckSmallWalking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -487,6 +527,22 @@
             }
         },
         {
+            "Key": "706805f3-c0a0-4177-a186-5af2004f2a88",
+            "Value": {
+                "id": "86bdd520-1483-4cb6-9398-26574d813ac4",
+                "resourcePath": "sprites\\sprite_playerIdleWithShotgun\\sprite_playerIdleWithShotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7312f31d-b575-435b-858d-327241d9fb44",
+            "Value": {
+                "id": "69b78942-6d80-437e-9903-5812457023f8",
+                "resourcePath": "views\\7312f31d-b575-435b-858d-327241d9fb44.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "758c663a-f6b0-42d9-8cb7-d98b5f12828c",
             "Value": {
                 "id": "fa58ceec-4884-4f49-b590-6a31e7072a54",
@@ -607,6 +663,14 @@
             }
         },
         {
+            "Key": "92585fc3-0d38-4b7d-a829-cbd2aa9a376e",
+            "Value": {
+                "id": "14777b36-45bf-4f8b-89a0-fea718d1a11a",
+                "resourcePath": "views\\92585fc3-0d38-4b7d-a829-cbd2aa9a376e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9320a212-c6f1-4194-9807-2e7f61f554be",
             "Value": {
                 "id": "b459560b-8a4c-41a0-841d-7f33cd3b18f3",
@@ -627,6 +691,14 @@
             "Value": {
                 "id": "b36007a4-c483-4a1a-824b-15ad664737bb",
                 "resourcePath": "sprites\\sprite_tilesetHouse\\sprite_tilesetHouse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97c50e35-7a3a-482d-837d-79c703165436",
+            "Value": {
+                "id": "88f4a4c7-2623-433b-ba67-604bd72c8b77",
+                "resourcePath": "sprites\\sprite_playerIdleWithRevolver\\sprite_playerIdleWithRevolver.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -751,6 +823,14 @@
             }
         },
         {
+            "Key": "abd7406c-0c1e-4742-8cc6-4614437f9032",
+            "Value": {
+                "id": "c31a0fc0-655c-4284-9310-e4da7749d048",
+                "resourcePath": "sprites\\x_sprite_enemy_duckStrangerIdleBroken\\x_sprite_enemy_duckStrangerIdleBroken.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac30750d-7179-41f4-a215-7c0b71eec6cf",
             "Value": {
                 "id": "fe1470ad-48bd-4bf9-b164-d920480860a1",
@@ -795,6 +875,14 @@
             "Value": {
                 "id": "8dbd1d02-dd54-49b0-9ba6-657b9d4ff13a",
                 "resourcePath": "views\\b256ccef-46a0-42a7-985f-e24bcb6c4399.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3419a79-6154-4f5f-be5a-46077ddd88d6",
+            "Value": {
+                "id": "aabf53a7-fd90-4035-b66f-7bc875d63c42",
+                "resourcePath": "views\\b3419a79-6154-4f5f-be5a-46077ddd88d6.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -879,11 +967,27 @@
             }
         },
         {
+            "Key": "c8ffdc7b-f8ad-4964-90cb-8bbf39e50b46",
+            "Value": {
+                "id": "43b0fc35-de18-4d1d-9511-6ee796d92ab7",
+                "resourcePath": "views\\c8ffdc7b-f8ad-4964-90cb-8bbf39e50b46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cbf72354-2ad6-4101-b752-df33a0c754b2",
             "Value": {
                 "id": "89ca16de-9fea-4ebb-a2c3-e85d1022d33d",
                 "resourcePath": "views\\cbf72354-2ad6-4101-b752-df33a0c754b2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc2bb70b-a8c5-4853-894b-f2fc28d6595b",
+            "Value": {
+                "id": "9dcfae0a-42f4-4b42-98f2-36e70808ae3c",
+                "resourcePath": "sprites\\sprite_playerWalkingWithRevolver\\sprite_playerWalkingWithRevolver.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
