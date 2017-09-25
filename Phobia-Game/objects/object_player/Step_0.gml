@@ -2,7 +2,7 @@
 if(global.pause) exit;
 
 if(godMode) {
-	Health = 100;
+	Health = 500;
 	Fear = 0; 
 }
 
@@ -257,6 +257,7 @@ if((Health < 1 || Fear > fearCap) && !died) {
 	//Player has died
 	died = 1;
 	room_speed = room_speed *0.1;
+
 	instance_create_layer(x,y,"Overlay",object_deathScreen);
 }
 if(timer % 120 == 0 && Fear > 0) {

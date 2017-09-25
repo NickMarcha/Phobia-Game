@@ -1,7 +1,8 @@
 /// @description Basic Values
 
 //debug
-godMode = 1;
+godMode = 0;
+maxHealth = 500;
 //Movement
 horizontalSpeed = 0;
 verticalSpeed = 0;
@@ -39,7 +40,7 @@ reload = 5;
 state = 0;
 
 //
-Health = 100;
+Health = maxHealth;
 Fear = 0;
 timer = 0;
 fearCap = 100;
