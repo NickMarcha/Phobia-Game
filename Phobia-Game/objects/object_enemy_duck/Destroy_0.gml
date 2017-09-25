@@ -5,3 +5,5 @@ array[1] = object_fearPillbox;
 array[2] = object_nothing;
 
 instance_create_layer(x,y-2,"Pickups", array[round(random_range(0,2))]);
+
+global.gameScore ++;

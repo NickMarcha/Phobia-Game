@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = object_player.x +9;
+x = object_player.x +sign(object_player.image_xscale) *9;
 y = object_player.y;
 
 image_angle = point_direction(x,y,object_crosshair.x,object_crosshair.y);

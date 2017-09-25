@@ -2,7 +2,7 @@
 // You can write your code in this editor
 buttonStart = gamepad_button_check_pressed(0,gp_start);
 
-if(room != 0 &&max(buttonStart, keyboard_check_pressed(vk_escape), 0)) {
+if((room != global.room_preLoad || room != global.room_startMenu)&& max(buttonStart, keyboard_check_pressed(vk_escape), 0)) {
 	if(global.pause == 0) {
 		global.pause = 1;
 	} else {
